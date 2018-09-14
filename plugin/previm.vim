@@ -26,7 +26,7 @@ endfunction
 
 augroup Previm
   autocmd!
-  autocmd FileType *{mkd,markdown,rst,textile,asciidoc}* call <SID>install_previm()
+  autocmd FileType *{mkd,markdown,rst,textile,asciidoc,vimwiki}* call <SID>install_previm()
 augroup END
 
 let &cpo = s:save_cpo
